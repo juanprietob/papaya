@@ -1,0 +1,34 @@
+11 Octobre 2014
+
+Aurelie Nguyen
+Juan Carlos Prieto
+
+= La Papaya
+
+== Services
+
+3D printing
+
+Clients will come to our site because they will find products that are cusmoizeable 
+
+Objects they can buy:
+
+Bowls, object de deco, Vases, Fleurs, cages, dessous de plats, horloges.
+Hand made objects. 
+
+On a une machine 3D et fait les pieces. On fait les pieces aussi a la main. 
+
+
+
+1. Create deco objects (design) objects.
+2. Jewelery
+3. T-shirts on demand
+
+
+
+View the 3D model online. 
+
+= Options for (Virtual priavte server) VPS
+Since we are developping our own website this is one option.
+
+	http://www.ovh.com/us/vps/vps-classic.xml
