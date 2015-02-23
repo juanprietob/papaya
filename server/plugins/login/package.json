@@ -1,0 +1,17 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Handles login and logout to papaya application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "login"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bell": "^2.1.0"
+  }
+}

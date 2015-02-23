@@ -1,5 +1,6 @@
 var Hapi = require('hapi');
 var Good = require('good');
+var fs = require('fs');
 
 var env = process.env.NODE_ENV;
 
@@ -7,11 +8,15 @@ if(!env) throw "Please set NODE_ENV variable.";
 
 var conf = require('./conf.' + env + '.json');
 
-
 var server = new Hapi.Server();
 server.connection({ 
     host: conf.host,
-    port: conf.port });
+    port: conf.port, 
+    tls:  {
+      key: fs.readFileSync('certificate/key.pem'),
+      cert: fs.readFileSync('certificate/server.crt')
+    }
+});
 
 var plugins = [];
 
